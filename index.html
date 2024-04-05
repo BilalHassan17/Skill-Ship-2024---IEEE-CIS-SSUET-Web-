@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://media.twiliocdn.com/sdk/js/chat/v5.5/twilio-chat.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Bilal
+            <span>Hassan</span></a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+</header>
+ <section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi,Its <span>Bilal</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p> I am a dedicated software engineering student at Sir Syed University with a passion for innovation and problem-solving. With a strong foundation in software development, I have had the privilege of serving as a team lead on numerous projects, honing my leadership and technical skills along the way.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/bilal-hassan-070288291/"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/bilalhassan_xd/"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100014670370801"><i class='bx bxl-facebook-square' ></i></a>
+        </div>
+        <div class="btn-group">
+            <a href="https://www.linkedin.com/in/bilal-hassan-070288291/" class="btn">Hire</a>
+            <a
+            class="btn" onclick="sendMessage()">Contact</a>
+        </div>
+    </div>
+        <div class="home-image">
+            <img src="image1.png" alt="">
+        </div>   
+ </section>
+ <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+    <div class="timeline-items">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>Practical Schooling System</h3>
+                        <p>Practical Schooling System is a project of Practical Centre which is considered among the leading educational institutes in the city and has been serving the citizens of Karachi since 1980. Since its inception, P.S.S. has carved its own niche by imparting quality education along with some highly productive co-curricular activities.</p>
+
+                    </div>
+            
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Adamjee Government Science College</h3>
+                        <p>The Adamjee Government Science College (Adamjee Science College) is one of the most famous colleges of Karachi, Pakistan. It was established by Adamjee Group. It is located in the heart of the city, near the mausoleum of Quaid-e-Azam Muhammad Ali Jinnah </p>
+
+                    </div>
+            
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Sir Syed University of Engineering and Technology</h3>
+                        <p>Sir Syed University of Engineering and Technology is a private research university located in the urban area of Karachi, Sindh, Pakistan. The university is honored in the name of notable 19th-century Indian Muslim reformer and philosopher, Sir Syed Ahmad Khan.</p>
+
+                    </div>
+            
+        </div>
+    </div> 
+ </section>
+ <section class="services" id="services">
+    <h2 class="heading">Services</h2>
+    <div class="service-container">
+    <div class="service-box">
+        <div class="service-info">
+            <h4>.Net Developer</h4>
+            <p>As a .NET developer, I specialize in crafting scalable web applications using ASP.NET MVC and .NET Core frameworks. Proficient in C# programming, I ensure the delivery of robust and efficient solutions by leveraging object-oriented principles and design patterns. With expertise in database management using SQL Server</p>
+
+        </div>
+    </div>
+    <div class="service-box">
+        <div class="service-info">
+            <h4>Cyber Security</h4>
+            <p>As a cybersecurity professional, I specialize in safeguarding digital assets and networks against evolving threats. With expertise in risk assessment, penetration testing, and threat mitigation strategies, I ensure robust defense mechanisms are in place. Proficient in implementing security protocols and conducting security audits</p>
+
+        </div>
+    </div>
+    <div class="service-box">
+        <div class="service-info">
+            <h4>Web Developer</h4>
+            <p>As a web developer, I specialize in creating dynamic and user-centric web experiences. With expertise in front-end technologies like HTML, CSS, and JavaScript, as well as proficiency in popular frameworks such as React and Vue.js, I craft visually appealing and responsive interfaces that engage users across devices. </p>
+
+        </div>
+    </div>
+    <div class="service-box">
+        <div class="service-info">
+            <h4>Content Writer</h4>
+            <p>As a content writer, I specialize in creating engaging and compelling narratives that resonate with diverse audiences. With a keen understanding of SEO principles and content marketing strategies, I craft tailored content that drives traffic, increases engagement, and boosts brand awareness. </p>
+
+        </div>
+    </div>
+    
+</div>
+</section>
+<section class="testimonials" id="testimonials">
+    <div class="testimonials-box">
+        <h2 class="heading">Testimonials</h2>
+        <div class="wrapper">
+            <div class="testimonial-item">
+                <img src="1.jpg" alt="">
+                <h2>Omerullah Ansari</h2>
+            <div class="rating">
+                <i class='bx bxs-star'id="star"></i>
+                <i class='bx bxs-star'id="star"></i>
+                <i class='bx bxs-star'id="star"></i>
+                <i class='bx bxs-star'id="star"></i>
+                <i class='bx bxs-star'id="star"></i>
+                </div>
+                <p>"I had the pleasure of working with Bilal on a .NET development project, and I must say, I am thoroughly impressed. Bilal demonstrated exceptional expertise in .NET development, delivering solutions that exceeded our expectations.</p>
+            </div>
+            <div class="testimonial-item">
+        <img src="2.jpg" alt="">
+        <h2>Kashan Aqil</h2>
+    <div class="rating">
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        </div>
+        <p>"I had the pleasure of collaborating with Bilal Hassan on several content writing projects, and I couldn't be happier with the results. Bilal's creativity and attention to detail shine through in every piece he produces. His ability to capture the essence of our brand and convey our message effectively is unparalleled. Working with Bilal has elevated our content strategy to new heights, and I look forward to many more successful collaborations."</p>
+    </div>
+    <div class="testimonial-item">
+        <img src="3.jpg" alt="">
+        <h2>Syed Ammar Hussain</h2>
+    <div class="rating">
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        <i class='bx bxs-star'id="star"></i>
+        </div>
+        <p>"I had the privilege of working with Bilal Hassan on a Python development project, and I must say, it was a game-changer for our company. Bilal's expertise in Python programming is truly remarkable. Not only did he deliver robust and scalable solutions, but he also provided valuable insights and optimizations that significantly enhanced our project's performance. Working with Bilal has set a new standard for excellence in Python development, and I would highly recommend him to anyone seeking top-notch technical solutions."</p>
+    </div>
+           
+</div>
+   </div>
+    </section>
+    
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>me</span>
+    </h2>
+    <form action="https://formspree.io/f/xpzvoagd" method="POST">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email" name="email">
+            </div>
+        <div class="input-box">
+            <input type="number" placeholder="Number">
+            <!-- <input type="text" placeholder="Subject"> -->
+        </div>
+
+        </div>
+        <div class="input-group-2">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+</section>
+<footer class="footer">
+    <div class="social">
+        <a href="https://www.linkedin.com/in/bilal-hassan-070288291/"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://github.com/"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.instagram.com/bilalhassan_xd/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100014670370801"><i class='bx bxl-facebook-square' ></i></a>
+    </div>
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">About ME</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Testimonials</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        © Bilal Hassan || All Rights Reserved
+    </p>
+</footer>
+    <script src="script.js"></script>
+    <script>
+        function sendMessage() {
+            const phoneNumber = '923322573961'; // Replace with your WhatsApp number
+            window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}`, '_blank');
+        }
+    </script>
+</body>
+</html>
