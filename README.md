@@ -28,6 +28,6 @@ Java code for functionality for responsive design is provided:
 If you like what you see, feel free to reach out at bilalhassanm5@gmail.com. Let's collaborate and bring your ideas to life!
 
 ## Explore Further:
-Connect with me on LinkedIn: [Add link to your LinkedIn profile]
+Connect with me on LinkedIn: www.linkedin.com/in/bilal-hassan-070288291
 
 Let's create something extraordinary together! 🚀
